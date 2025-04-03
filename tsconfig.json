@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "noEmit": true,
+      "esModuleInterop": true,
+      "module": "esnext",
+      "moduleResolution": "bundler",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "jsx": "preserve",
+      "incremental": true,
+      "plugins": [
+        {
+          "name": "next"
+        }
+      ],
+      "paths": {
+        "@/*": ["./*"]
+      }
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/admin/layout.jsx", "app/layout.jsx", "app/admin/procesoelectoral/[id]/page.tsx", "app/admin/subelections/[id]/page.jsx", "app/voters/layout.jsx", "app/voters/home/page.jsx", "app/admin/procesoelectoral/add/page.tsx", "components/tablaSubElections.jsx", "app/voters/votar/[id]/page.tsx", "components/BarChart.jsx", "components/tablaChapters.jsx"],
+    "exclude": ["node_modules"]
+  }
